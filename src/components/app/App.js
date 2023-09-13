@@ -1,7 +1,7 @@
 import AppHeader from "./../appHeader/AppHeader"
 import AboutUs from "./../aboutUs/AboutUs"
 import OurBest from "../ourBest/OurBest"
-import FooterApp from "../footer/FooterApp"
+import FooterNav from "../footer/FooterNav"
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <AppHeader />
       <AboutUs />
       <OurBest />
-      <FooterApp />
+      <FooterNav />
     </div>
   )
 }
