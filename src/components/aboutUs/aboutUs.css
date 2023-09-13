@@ -1,10 +1,31 @@
-p {
+.App-body {
+  width: 1440px;
+  height: 520px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: -350px;
+}
+
+.App-body > p,
+.App-body > h2 {
   color: #000;
   text-align: center;
   font-family: Merienda;
-  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: normal;
+}
+
+p.app_body {
+  font-size: 14px;
+  width: 589px;
+  height: 223px;
+  margin: 0 auto;
+}
+
+h2.app_body {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  font-size: 24px;
 }

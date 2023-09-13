@@ -1,5 +1,8 @@
-body {
+.App-header {
   background: url("../../images/bgimage.jpg") no-repeat top center;
+  width: 1439px;
+  height: 959px;
+  margin: 0 auto;
 }
 
 .bgimage {
@@ -14,20 +17,21 @@ body {
   flex-shrink: 0;
   margin-left: 75px;
   margin-top: 20px;
+  padding-left: 70px;
 }
 
 .coffee_beans_3 {
+  margin: 0 auto;
   width: 35px;
   height: 35px;
   flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
 }
 
-.App-header h1,
-h2,
-h3 {
+.App-header > h1,
+.App-header > h2,
+.App-header > h3 {
   font-family: Merienda;
+  margin: 0 auto;
   color: #fff;
   font-style: normal;
   line-height: normal;
@@ -44,16 +48,17 @@ h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 40px;
   font-weight: 700;
-  margin: 100px auto 0 auto;
+  padding-top: 100px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
+  padding-top: 30px;
 }
 
 h3 {
-  padding-right: 25px;
+  padding-right: 45px;
   display: inline-block;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 12px;
@@ -61,9 +66,9 @@ h3 {
 }
 
 .more_button {
+  margin: 25px 630px;
   font-size: 14px;
   color: #fff;
-  margin-left: 42%;
   background-color: transparent;
   height: 40px;
   width: 140px;
@@ -75,7 +80,7 @@ h3 {
   width: 60px;
   height: 1px;
   background-color: #fff;
-  margin: 30px 30px 20px;
+  margin: 0 auto;
   display: inline-block;
 }
 
@@ -83,7 +88,7 @@ h3 {
   width: 60px;
   height: 1px;
   background-color: #fff;
-  margin: 30px 30px 20px;
+  margin: 0 auto;
   margin-left: 40%;
   display: inline-block;
 }
