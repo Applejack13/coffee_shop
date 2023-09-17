@@ -1,4 +1,6 @@
 .ourBest {
+  width: auto;
+  height: 500px;
   font-family: Merienda;
   margin: 0 auto;
   color: #000;
@@ -10,6 +12,7 @@
 }
 
 .ourBest > h2 {
+  font-weight: 400;
   font-size: 24px;
   margin: 0 auto;
 }

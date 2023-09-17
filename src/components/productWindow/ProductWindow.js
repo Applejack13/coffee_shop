@@ -1,13 +1,12 @@
 import "../productWindow/productWindow.css"
-import coffeeImage from "../../images/windowsImage1.jpg"
 
-const ProductWindow = () => {
+const ProductWindow = ({ img, description, price }) => {
   return (
     <div className="productWindow">
       <div className="windows">
-        <img src={coffeeImage} alt="coffee_img" />
-        <p>Solimo Coffee Beans 2 kg</p>
-        <p>10.73$</p>
+        <img src={img} alt="coffee_img" />
+        <p>{description}</p>
+        <p>{price}</p>
       </div>
     </div>
   )
