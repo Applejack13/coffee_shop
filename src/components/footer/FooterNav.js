@@ -1,13 +1,13 @@
-import coffeeBeans from "../../images/coffee-beans 2.svg"
 import "../footer/footer-nav.css"
+import LinesAndBeans from "../linesAndBeans/LinesAndBeans"
+import Info from "../Info/Info"
+import coffeeBeans4 from "../../images/coffee-beans 4.svg"
 
 const FooterNav = () => {
   return (
-    <div className="App-nav">
-      <img src={coffeeBeans} alt="coffee_beans" className="coffee_beans_2" />
-      <h3>Coffee house</h3>
-      <h3>Our coffee</h3>
-      <h3>For your pleasure</h3>
+    <div className="app-footer">
+      <Info />
+      <LinesAndBeans img={coffeeBeans4} bgc="black" />
     </div>
   )
 }

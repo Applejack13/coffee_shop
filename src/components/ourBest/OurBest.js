@@ -3,7 +3,7 @@ import ProductWindow from "../productWindow/ProductWindow"
 
 const OurBest = () => {
   return (
-    <div>
+    <div className="ourBest">
       <h2>Our Best</h2>
       <ProductWindow />
       <ProductWindow />

@@ -1,0 +1,29 @@
+.productWindow {
+  display: inline-block;
+}
+
+.windows {
+  display: block;
+  width: 220px;
+  height: 240px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  margin: 0 40px;
+}
+
+.windows > img {
+  width: 151px;
+  height: 130px;
+  flex-shrink: 0;
+  margin: 15px 25px 0 25px;
+}
+
+.windows > p:first-child {
+  font-size: 14px;
+}
+
+.windows > p:nth-child(3) {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 0 0 70%;
+}

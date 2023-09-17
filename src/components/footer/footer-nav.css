@@ -1,10 +1,12 @@
-.App-nav > h3 {
+.app-footer {
+  height: 150px;
+  width: 1440px;
   color: #000;
   font-family: Merienda;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  margin: 0 auto;
 }

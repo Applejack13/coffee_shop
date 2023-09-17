@@ -1,0 +1,15 @@
+.ourBest {
+  font-family: Merienda;
+  margin: 0 auto;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  display: block;
+  text-align: center;
+  background: url("/src/images/bgiOurBest.jpg") no-repeat center center;
+}
+
+.ourBest > h2 {
+  font-size: 24px;
+  margin: 0 auto;
+}

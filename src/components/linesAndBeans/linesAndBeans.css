@@ -1,0 +1,12 @@
+.beans_and_lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.beans_and_lines > p {
+  margin: 40px 25px;
+  width: 60px;
+  height: 1px;
+}

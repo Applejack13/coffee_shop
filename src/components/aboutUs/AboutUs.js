@@ -1,9 +1,12 @@
 import "../aboutUs/aboutUs.css"
+import LinesAndBeans from "../linesAndBeans/LinesAndBeans"
+import coffeeBeans4 from "../../images/coffee-beans 4.svg"
 
 const AboutUs = () => {
   return (
     <div className="App-body">
       <h2 className="app_body">About Us</h2>
+      <LinesAndBeans img={coffeeBeans4} bgc="black" />
       <p className="app_body">
         Extremity sweetness difficult behaviour he of. On disposal of as
         landlord horrible.

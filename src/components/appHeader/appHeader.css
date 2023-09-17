@@ -1,4 +1,5 @@
 .App-header {
+  display: block;
   background: url("../../images/bgimage.jpg") no-repeat top center;
   width: 1439px;
   height: 959px;
@@ -11,62 +12,33 @@
   flex-shrink: 0;
 }
 
-.coffee_beans {
-  width: 35px;
-  height: 35px;
-  flex-shrink: 0;
-  margin-left: 75px;
-  margin-top: 20px;
-  padding-left: 70px;
-}
-
-.coffee_beans_3 {
-  margin: 0 auto;
-  width: 35px;
-  height: 35px;
-  flex-shrink: 0;
-}
-
 .App-header > h1,
-.App-header > h2,
-.App-header > h3 {
+.App-header > h2 {
   font-family: Merienda;
   margin: 0 auto;
   color: #fff;
   font-style: normal;
   line-height: normal;
-}
-
-h1,
-h2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-h1 {
+.App-header > h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 40px;
   font-weight: 700;
   padding-top: 100px;
 }
 
-h2 {
+.App-header > h2 {
   font-size: 24px;
   font-weight: 700;
   padding-top: 30px;
 }
 
-h3 {
-  padding-right: 45px;
-  display: inline-block;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 12px;
-  font-weight: 400;
-}
-
 .more_button {
-  margin: 25px 630px;
+  display: block;
+  margin: 20px auto;
   font-size: 14px;
   color: #fff;
   background-color: transparent;
@@ -74,21 +46,4 @@ h3 {
   width: 140px;
   border: 1px solid #fff;
   border-radius: 5px;
-}
-
-.left-line {
-  width: 60px;
-  height: 1px;
-  background-color: #fff;
-  margin: 0 auto;
-  display: inline-block;
-}
-
-.right-line {
-  width: 60px;
-  height: 1px;
-  background-color: #fff;
-  margin: 0 auto;
-  margin-left: 40%;
-  display: inline-block;
 }
