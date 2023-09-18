@@ -19,7 +19,7 @@ const AppHeader = () => {
       <LinesAndBeans img={coffeeBeans3} bgc="white" />
       <h2>We makes every day full of energy and taste</h2>
       <h2>Want to try our beans?</h2>
-      <button className="more_button">More</button>
+      <button>More</button>
     </div>
   )
 }

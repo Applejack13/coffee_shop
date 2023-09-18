@@ -1,9 +1,7 @@
 .App-body {
-  width: 1440px;
-  height: 400px;
+  display: block;
   flex-shrink: 0;
-  margin: 0 auto;
-  margin-top: -350px;
+  margin: 70px auto;
 }
 
 .App-body > p,
@@ -22,9 +20,4 @@ p.app_body {
   width: 589px;
   height: 223px;
   margin: 0 auto;
-}
-
-h2.app_body {
-  margin: 80px auto 0 auto;
-  font-size: 24px;
 }
