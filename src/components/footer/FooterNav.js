@@ -11,7 +11,6 @@ const FooterNav = () => {
         img={coffeeBeans2}
         color="black"
         marginLeft="37%"
-        // I'll fix it later
         marginTop="30px"
         paddingLeft="0"
       />

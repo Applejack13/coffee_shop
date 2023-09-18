@@ -1,9 +1,9 @@
-import AppHeader from "./../appHeader/AppHeader"
-import AboutUs from "./../aboutUs/AboutUs"
+import AppHeader from "../appHeader/AppHeader"
+import AboutUs from "../aboutUs/AboutUs"
 import OurBest from "../ourBest/OurBest"
 import FooterNav from "../footer/FooterNav"
 
-const App = () => {
+const HomePage = () => {
   return (
     <div className="app">
       <AppHeader />
@@ -14,4 +14,4 @@ const App = () => {
   )
 }
 
-export default App
+export default HomePage

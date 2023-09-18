@@ -1,0 +1,17 @@
+.headerSecAndThird {
+  display: block;
+  background: url("../../images/coffee_shop_bg_for_header.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 350px;
+}
+
+.headerSecAndThird > h2 {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-top: 150px;
+}

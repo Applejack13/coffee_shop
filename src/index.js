@@ -1,11 +1,18 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
-import App from "./components/app/App"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import HomePage from "./components/app/HomePage"
+import SecondPage from "./components/app/SecondPage"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/second" element={<SecondPage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 )
