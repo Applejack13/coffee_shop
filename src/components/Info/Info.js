@@ -1,8 +1,8 @@
 import "../Info/info.css"
+import { Link } from "react-router-dom"
 
 const Info = ({ img, color, marginLeft, marginTop, paddingLeft }) => {
   const stylesForImg = {
-    img: `url(${img})`,
     marginLeft: `${marginLeft}`,
     marginTop: `${marginTop}`,
     paddingLeft: `${paddingLeft}`,
@@ -10,19 +10,29 @@ const Info = ({ img, color, marginLeft, marginTop, paddingLeft }) => {
 
   const stylesForText = {
     color: color,
+    textDecoration: "none",
+    cursor: "pointer",
+    marginLeft: "50px",
   }
 
   return (
-    <div className="info">
+    <div className="linkTo">
       <img
         src={img}
         style={stylesForImg}
         alt="coffee_beans"
         className="coffee_beans"
       />
-      <h3 style={stylesForText}>Coffee house</h3>
-      <h3 style={stylesForText}>Our coffee</h3>
-      <h3 style={stylesForText}>For your pleasure</h3>
+
+      <Link to="/" style={stylesForText}>
+        Coffee house
+      </Link>
+      <Link to="/second" style={stylesForText}>
+        Our coffee
+      </Link>
+      <Link to="/third" style={stylesForText}>
+        For your pleasure
+      </Link>
     </div>
   )
 }
