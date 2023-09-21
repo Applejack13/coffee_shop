@@ -1,0 +1,34 @@
+.thirdPageMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 80px 600px;
+  font-size: 14px;
+  /* margin: 50px 0px; */
+  /* also fix it */
+}
+
+.second_block_trird_page > p {
+  margin: 15px 0px;
+}
+
+.second_block_trird_page > h2 {
+  text-align: center;
+}
+
+.thirdPageMain > p {
+  text-align: left;
+}
+
+.second_block_trird_page > img {
+  width: 498px;
+  height: 355px;
+  flex-shrink: 0;
+}
+
+p > span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
