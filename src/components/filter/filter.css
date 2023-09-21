@@ -1,0 +1,45 @@
+.filter {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.filter > h2 {
+  color: #000;
+  margin: 0 10px 0 60px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filter > h2,
+.filter > input,
+.filter > button {
+  display: inline-block;
+}
+
+.filter > button {
+  margin-left: 5px;
+  text-align: center;
+  width: 75px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 4px 0px 0px 4px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  border: 4px solid transparent;
+}
+
+.filter > input {
+  border: 4px solid transparent;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Merienda;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

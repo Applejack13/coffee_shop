@@ -1,0 +1,18 @@
+.forWindows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  text-align: center;
+  padding: auto;
+  margin: 0 700px;
+}
+
+.window2 > h2 {
+  font-size: 14px;
+}
+
+.window2 > p:not(:first-child) {
+  font-size: 14px;
+  text-align: right;
+  margin: 20px;
+}

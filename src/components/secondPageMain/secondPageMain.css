@@ -1,29 +1,41 @@
-.second_page_main {
-  display: block;
-  margin: 60px 29%;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  margin: 50px 450px;
 }
 
-.second_page_main > h2 {
+.container > p:last-child {
+  width: 240px;
+  height: 1px;
+  background-color: black;
+  margin: 40px 75% 0;
+  /* fix margin later */
+}
+
+.second_block {
+  width: 346px;
+  height: 232px;
+}
+
+.second_block > h2 {
   color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0 auto;
 }
 
-.second_page_main > p {
-  width: 346px;
-  height: 232px;
+.second_block > p {
   flex-shrink: 0;
   color: #000;
-  text-align: center;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-/* 
-.second_page_main > img {
-  
-} */
+
+.first_block > img {
+  border-radius: 5px;
+}
