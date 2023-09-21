@@ -7,7 +7,6 @@ const ThirdPage = () => {
     <div className="tridrPageHeader">
       <HeaderSecAndThird />
       <ThirdPageMain />
-
       <FooterNav />
     </div>
   )

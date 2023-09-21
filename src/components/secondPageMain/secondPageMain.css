@@ -2,24 +2,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+  margin: 80px auto;
+  width: 50%;
   text-align: center;
-  margin: 80px 600px;
-  /* margin: 50px 0px; */
-  /* also fix it */
 }
 
 .container > p:last-child {
+  display: block;
   width: 240px;
   height: 1px;
   background-color: black;
-  margin: 40px 65% 0;
-  /* fix margin later */
+  margin: 50px 65%;
 }
 
 .second_block {
   width: 346px;
   height: 232px;
-  text-align: center;
 }
 
 .second_block > h2,
@@ -28,6 +26,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .second_block > h2 {
@@ -40,6 +39,4 @@
 
 .first_block > img {
   border-radius: 5px;
-  /* margin-left: 150px; */
-  text-align: center;
 }

@@ -1,4 +1,8 @@
 .window2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   width: 220px;
   height: 260px;
   flex-shrink: 0;
