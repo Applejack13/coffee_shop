@@ -4,6 +4,7 @@ import LinesAndBeans from "../linesAndBeans/LinesAndBeans"
 import Info from "../Info/Info"
 import coffeeBeans3 from "../../images/coffee-beans 3.svg"
 import coffeeBeans4 from "../../images/coffee-beans.svg"
+import Modal from "../modal/Modal"
 
 const AppHeader = () => {
   return (
@@ -19,7 +20,7 @@ const AppHeader = () => {
       <LinesAndBeans img={coffeeBeans3} bgc="white" />
       <h2>We makes every day full of energy and taste</h2>
       <h2>Want to try our beans?</h2>
-      <button>More</button>
+      <Modal />
     </div>
   )
 }
