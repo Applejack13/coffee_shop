@@ -13,7 +13,11 @@ function Modal() {
 
       {isOpen && (
         <div className="modal">
-          <div className="modal-background"></div>
+          <div
+            className="modal-background"
+            onClick={closeModal}
+            onKeyDown={escape}
+          ></div>
           <div className="modal-content">
             <span className="close" onClick={closeModal}>
               &times;

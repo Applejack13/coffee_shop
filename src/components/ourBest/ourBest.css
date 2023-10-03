@@ -1,6 +1,6 @@
 .ourBest {
   display: block;
-  width: 100%;
+  width: 95%;
   height: 100%;
   font-family: Merienda;
   margin: 0 auto;
@@ -20,7 +20,7 @@
 }
 
 .slick-prev {
-  left: 0 !important;
+  left: -52px !important;
 }
 
 .slick-next:before,
@@ -28,17 +28,25 @@
   content: "" !important;
 }
 
+.slick-next:active,
+.slick-prev:active {
+  scale: 0.9;
+}
+
 .next-slick-arrow,
 .prev-slick-arrow {
   color: #000000;
   font-size: 45px;
-  position: absolute;
 }
 
-.next-slick-arrow {
-  right: 50px;
+div.slick-arrow.slick-prev {
+  left: 80px !important;
+  top: 150px !important;
+  z-index: 1;
 }
 
-.prev-slick-arrow {
-  left: 50px;
+div.slick-arrow.slick-next {
+  right: 100px !important;
+  top: 150px !important;
+  z-index: 1;
 }
