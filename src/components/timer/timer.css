@@ -1,0 +1,29 @@
+.countdown-timer {
+  display: block;
+  height: auto;
+  width: 370px;
+  margin: 30px auto;
+  border-radius: 10px;
+  text-align: center;
+  background: url("/src/images/bgiOurBest.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.countdown-timer > h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.timer-box {
+  display: inline-block;
+  padding: 15px;
+}
+
+.timer-box > span {
+  display: block;
+}
+
+.timer-box > span:first-child {
+  font-weight: 600;
+}
